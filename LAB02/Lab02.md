@@ -110,7 +110,7 @@ LAB02
 
 [.env]
 
-![2.2](../LAB02/Results/1.2.png)
+![2.2](../LAB02/Results/2.2.png)
 
 #### 2.3 Tạo tệp tin index.js để quản lý việc kết nối dữ liệu, khởi tạo đối tượng, và chạy máy chủ.
 
