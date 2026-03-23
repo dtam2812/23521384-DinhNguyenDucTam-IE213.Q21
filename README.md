@@ -25,12 +25,12 @@ Mỗi bài lab được lưu trong một thư mục riêng để giảng viên c
 23521384-DinhNguyenDucTam-IE213.Q21
 │
 ├── README.md
-├── Lab01
-├── Lab02
-├── Lab03
-├── Lab04
-├── Lab05
-└── Lab06
+├── LAB01
+├── LAB02
+├── LAB03
+├── LAB04
+├── LAB05
+└── LAB06
 ```
 
 ---
@@ -50,10 +50,24 @@ Nội dung chính:
 Thư mục:
 
 ```id="h9mn6n"
-Lab01/
+LAB01/
 ```
 
-## Lab02
+## Lab02 - Thiết lập Backend với NodeJS và ExpressJS
+
+Nội dung chính:
+
+- Thiết lập môi trường NodeJS
+- Xây dựng server với ExpressJS
+- Kết nối MongoDB Atlas
+- Tổ chức project theo mô hình DAO – Controller – Route
+- Xây dựng API /api/v1/movies
+
+Thư mục:
+
+```id="h9mn6n"
+LAB02/
+```
 
 ## Lab03
 
@@ -82,6 +96,13 @@ use 23521384-IE213
 
 Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 
+Đối với Lab02:
+
+1. Di chuyển vào thư mục backend cd lab02/movie-reviews/backend
+2. Cài đặt dependency npm install
+3. Chạy server npm start
+4. Truy cập API http://localhost:3000/api/v1/movies
+
 ---
 
 # 6. Kết quả thực hiện
@@ -98,7 +119,21 @@ Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 Kết quả được minh họa bằng hình ảnh trong thư mục:
 
 ```id="hweay3"
-Lab01/Results
+LAB01/Results
+```
+
+Đã thực hiện thành công các yêu cầu của Lab02:
+
+- Thiết lập môi trường NodeJS
+- Cài đặt ExpressJS và MongoDB
+- Xây dựng server backend
+- Thiết lập API /api/v1/movies
+- Kết nối MongoDB Atlas
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```id="hweay3"
+LAB02/Results
 ```
 
 ---
@@ -110,12 +145,12 @@ Các hình ảnh minh chứng kết quả thực hiện được lưu trong thư
 Cấu trúc thư mục:
 
 ```id="hweay3"
-Lab01/Results
-Lab02/Results
-Lab03/Results
-Lab04/Results
-Lab05/Results
-Lab06/Results
+LAB01/Results
+LAB02/Results
+LAB03/Results
+LAB04/Results
+LAB05/Results
+LAB06/Results
 ```
 
 ---
