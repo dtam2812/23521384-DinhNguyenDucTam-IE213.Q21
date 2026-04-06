@@ -71,6 +71,17 @@ LAB02/
 
 ## Lab03
 
+- Xây dựng chức năng Review (POST, PUT, DELETE)
+- Tạo Controller và DAO cho review
+- Hoàn thiện API backend
+- Thêm API nâng cao
+
+Thư mục:
+
+```id="h9mn6n"
+LAB03/
+```
+
 ## Lab04
 
 ## Lab05
@@ -97,6 +108,15 @@ use 23521384-IE213
 Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 
 Đối với Lab02:
+
+1. Di chuyển vào thư mục backend cd lab02/movie-reviews/backend
+2. Cài đặt dependency npm install
+3. Chạy server npm start
+4. Truy cập API http://localhost:3000/api/v1/movies
+
+---
+
+Đối với Lab03:
 
 1. Di chuyển vào thư mục backend cd lab02/movie-reviews/backend
 2. Cài đặt dependency npm install
@@ -134,6 +154,19 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 
 ```id="hweay3"
 LAB02/Results
+```
+
+Đã thực hiện thành công các yêu cầu của Lab03:
+
+- Xây dựng chức năng Review (CRUD)
+- Tạo Controller và DAO cho review
+- Hoàn thiện backend cho ứng dụng movies
+- Xây dựng API nâng cao
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```id="hweay3"
+LAB03/Results
 ```
 
 ---
