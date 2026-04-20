@@ -141,7 +141,7 @@ Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 
 Đối với Lab04:
 
-1. Di chuyển vào thư mục frontend cd lab04/movie-reviews/frontend
+1. Di chuyển vào thư mục frontend cd LAB04/movie-reviews/frontend
 2. Cài đặt dependency npm install
 3. Chạy ứng dụng npm start
 4. Truy cập giao diện http://localhost:3000
