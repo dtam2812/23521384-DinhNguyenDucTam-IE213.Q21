@@ -82,7 +82,21 @@ Thư mục:
 LAB03/
 ```
 
-## Lab04
+## Lab04 – Thiết lập Frontend với ReactJS
+
+Nội dung chính:
+
+- Tạo template frontend với React (create-react-app)
+- Cài đặt Bootstrap và React Router DOM
+- Xây dựng Navigation Header bar với React-Bootstrap
+- Tạo các component: movies-list, movie, add-review, login
+- Thiết lập định tuyến với React Router DOM
+
+Thư mục:
+
+```id="h9mn6n"
+LAB04/
+```
 
 ## Lab05
 
@@ -124,6 +138,13 @@ Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 4. Truy cập API http://localhost:3000/api/v1/movies
 
 ---
+
+Đối với Lab04:
+
+1. Di chuyển vào thư mục frontend cd lab04/movie-reviews/frontend
+2. Cài đặt dependency npm install
+3. Chạy ứng dụng npm start
+4. Truy cập giao diện http://localhost:3000
 
 # 6. Kết quả thực hiện
 
@@ -167,6 +188,20 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 
 ```id="hweay3"
 LAB03/Results
+```
+
+Đã thực hiện thành công các yêu cầu của Lab04:
+
+- Tạo template frontend với create-react-app
+- Cài đặt Bootstrap và React Router DOM
+- Xây dựng Navigation Header bar với React-Bootstrap
+- Tạo các component: movies-list, movie, add-review, login
+- Thiết lập định tuyến cho các component
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```id="hweay3"
+LAB04/Results
 ```
 
 ---
