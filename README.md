@@ -98,7 +98,22 @@ Thư mục:
 LAB04/
 ```
 
-## Lab05
+## Lab05 – Xây dựng Frontend với ReactJS
+
+Nội dung chính:
+
+- Kết nối frontend tới backend qua axios
+- Tạo lớp dịch vụ MovieDataService trong src/services/movies.js
+- Xây dựng MoviesList component: hiển thị danh sách phim, tìm kiếm theo title và rating
+- Xây dựng Movie component: hiển thị chi tiết phim và danh sách review
+- Sử dụng useState() và useEffect() hooks
+- Định dạng thời gian với moment.js Thư mục: lab05/
+
+Thư mục:
+
+```id="h9mn6n"
+LAB05/
+```
 
 ## Lab06
 
@@ -145,6 +160,22 @@ Sau đó thực hiện các lệnh CRUD theo yêu cầu của bài thực hành.
 2. Cài đặt dependency npm install
 3. Chạy ứng dụng npm start
 4. Truy cập giao diện http://localhost:3000
+
+Đối với Lab05:
+
+Terminal 1:
+
+1. Di chuyển vào thư mục backend cd LAB05/movie-reviews/backend
+2. Cài đặt dependency npm install
+3. Chạy ứng dụng npm start
+
+Terminal 2:
+
+1. Di chuyển vào thư mục frontend cd LAB05/movie-reviews/frontend
+2. Cài đặt dependency npm install
+3. Chạy ứng dụng npm start
+4. Bấm y nếu bị yêu cầu chuyển cổng
+5. Truy cập giao diện http://localhost:3000 hoặc http://localhost:3001
 
 # 6. Kết quả thực hiện
 
@@ -202,6 +233,20 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 
 ```id="hweay3"
 LAB04/Results
+```
+
+Đã thực hiện thành công các yêu cầu của Lab05:
+
+- Kết nối frontend tới backend với axios
+- Tạo lớp dịch vụ MovieDataService
+- Xây dựng MoviesList component với tìm kiếm theo title và rating
+- Xây dựng Movie component hiển thị chi tiết phim và review
+- Hiển thị danh sách review với định dạng thời gian bằng moment.js
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```id="hweay3"
+LAB05/Results
 ```
 
 ---
