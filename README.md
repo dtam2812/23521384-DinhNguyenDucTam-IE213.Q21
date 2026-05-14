@@ -117,6 +117,21 @@ LAB05/
 
 ## Lab06
 
+Nội dung chính:
+
+- Xây dựng Login component và xử lý xác thực người dùng
+- Thêm review mới qua AddReview component
+- Sửa review hiện có (chế độ editing)
+- Xoá review với cập nhật state trực tiếp trên frontend
+- Phân trang danh sách phim với getAll(currentPage)
+- Phân trang kết hợp tìm kiếm theo title và rating với currentSearchMode
+
+Thư mục:
+
+```id="h9mn6n"
+LAB05/
+```
+
 ---
 
 # 5. Cách chạy chương trình
@@ -172,6 +187,22 @@ Terminal 1:
 Terminal 2:
 
 1. Di chuyển vào thư mục frontend cd LAB05/movie-reviews/frontend
+2. Cài đặt dependency npm install
+3. Chạy ứng dụng npm start
+4. Bấm y nếu bị yêu cầu chuyển cổng
+5. Truy cập giao diện http://localhost:3000 hoặc http://localhost:3001
+
+Đối với Lab06:
+
+Terminal 1:
+
+1. Di chuyển vào thư mục backend cd LAB06/movie-reviews/backend
+2. Cài đặt dependency npm install
+3. Chạy ứng dụng npm start
+
+Terminal 2:
+
+1. Di chuyển vào thư mục frontend cd LAB06/movie-reviews/frontend
 2. Cài đặt dependency npm install
 3. Chạy ứng dụng npm start
 4. Bấm y nếu bị yêu cầu chuyển cổng
@@ -247,6 +278,21 @@ Kết quả được minh họa bằng hình ảnh trong thư mục:
 
 ```id="hweay3"
 LAB05/Results
+```
+
+Đã thực hiện thành công các yêu cầu của Lab06:
+
+- Xây dựng Login component, redirect về Home sau khi đăng nhập
+- Thêm review mới qua AddReview component với saveReview()
+- Sửa review: truyền currentReview qua location.state, gọi updateReview()
+- Xoá review: gọi deleteReview() rồi dùng splice() cập nhật state
+- Phân trang với currentPage và entriesPerPage
+- Phân trang kết hợp tìm kiếm: quản lý currentSearchMode để gọi đúng hàm
+
+Kết quả được minh họa bằng hình ảnh trong thư mục:
+
+```id="hweay3"
+LAB06/Results
 ```
 
 ---
